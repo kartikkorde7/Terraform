@@ -3,6 +3,6 @@ resource "aws_instance" "my_ec2"{
     instance_type= "t3.micro"
     key_name = "KARTIK"
     tags {
-            "my-ec2"
+            Name = my-ec2
     }
 }
